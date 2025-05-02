@@ -1,0 +1,12 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# alias ls='ls --color=auto'
+alias ls='eza --color=always --icons=always'
+PS1='\[\033[1;32m\]\u\[\033[0;37m\]@\h \[\033[32m\]\w\[\033[37m\]$ '
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh

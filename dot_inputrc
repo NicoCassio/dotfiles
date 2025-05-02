@@ -1,0 +1,13 @@
+set bell-style none
+
+set keyseq-timeout 1
+set editing-mode vi
+set show-mode-in-prompt on
+set vi-cmd-mode-string "\1\033[1;31m\e[2 q\2[N] "
+set vi-ins-mode-string "\1\033[1;32m\e[6 q\2[I] "
+
+set keymap vi-insert
+"\C-l": clear-screen
+
+# set keymap vi-command
+# "v": EDITOR=vim vi-edit-and-execute-command

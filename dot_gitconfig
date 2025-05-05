@@ -2,7 +2,7 @@
 	defaultBranch = main
 
 [core]
-  pager = delta
+  pager = delta | bat
 
 [interactive]
   diffFilter = delta --color-only
@@ -15,3 +15,6 @@
 
 [merge]
   conflictstyle = zdiff3
+[user]
+	email = niccassantos@gmail.com
+	name = NicoCassio

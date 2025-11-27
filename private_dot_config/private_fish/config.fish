@@ -9,3 +9,4 @@ if status is-interactive
 end
 procs --gen-completion-out fish | source
 mise activate fish | source
+zoxide init fish | source
